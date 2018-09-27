@@ -1,19 +1,27 @@
-<!DOCTYPE html>
 <html lang="fi">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Oma sivu</title>
+    <link rel="stylesheet" href="css/tyylit.css">
 </head>
 <body>
-    <h1>Minun oma sivuni</h1>
-    <p>Tällä sivulla kerron omasta opiskelustani ja kiinostuksen kohteista</p>
+    <h1 id="boss">Minun <span class="sininen alaviiva">oma</span> sivuni</h1>
+    <p>Tällä <b>sivulla</b> kerron omasta <del>opiskelustani</del> opiskelustani ja kiinostuksen kohteista</p>
     
+    <img class="main-image" src="img/kisu.jpg" alt="Kissa" width="100%">
+
+    <h2>Hyviä linkkejä</h2>
+    <ul>
+        <li><a href="https://ossi.esedu.fi">OSSI</a></li>
+        <li><a href="http://www.esedu.fi">Esedu</a></li>
+    </ul>
+
     <h2>Harrastukset</h2>
-    <ol>
+    <ol class="sininen">
         <li>Lukeminen</li>
-        <li>Jääkiekko</li>
+        <li style="color: red;font-size: 2em;">Jääkiekko</li>
         <li>Musiikki</li>
         <li>Koodaaminen
             <ul>
@@ -46,7 +54,7 @@
                 <td>1</td>
                 <td>4</td>
                 <td>4</td>
-            </tr>            
+           
             <tr>
                 <td>Tappara</td>
                 <td>3</td>

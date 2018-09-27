@@ -1,0 +1,34 @@
+body {
+    background-image: url('../img/bg.jpg');
+}
+
+.main-image {
+    width: 50%;
+}
+h1 {
+
+}
+
+#boss {
+    font-size: 5em;
+}
+
+.sininen { 
+    color: blue; 
+}
+
+.alaviiva {
+    text-decoration: underline;
+}
+
+a {
+    color: red;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+a:visited {
+    color: orange;
+}
