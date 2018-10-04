@@ -1,34 +1,58 @@
-body {
-    background-image: url('../img/bg.jpg');
+header {
+    background-color: #999999;
+    padding: 10px;
 }
 
-.main-image {
-    width: 50%;
-}
-h1 {
-
+nav {
+    text-align: right;
 }
 
-#boss {
-    font-size: 5em;
-}
-
-.sininen { 
-    color: blue; 
-}
-
-.alaviiva {
-    text-decoration: underline;
+nav a {
+    text-decoration: none;
+    font-size: 1.2em;
+    display: inline-block;
+    padding: 10px;
+    color: #aa3333;
 }
 
 a {
-    color: red;
-    text-decoration: none;
+    color: greenyellow;
 }
 
-a:hover {
-    text-decoration: underline;
+nav a:hover {
+    background-color: #444;
+    color: #fff;
 }
-a:visited {
-    color: orange;
+
+article {
+    background-color: #997777;
+    padding: 10px;
+    
+}
+footer {
+    background-color: #777799;
+    padding: 30px;
+    text-align: center;
+}
+
+.container {
+    margin: 0 auto;
+    width: 80%;
+    max-width: 1000px;
+}
+
+.oikea {
+    box-sizing: border-box;
+    width: 35%;
+    float: right;
+    padding: 1em;
+}
+.vasen {
+    box-sizing: border-box;
+    width: 65%;
+    float: left;
+    padding: 1em;
+}
+.clearfix {
+    overflow: auto;
 }
